@@ -1,0 +1,24 @@
+{
+  "name": "register",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "sever.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon src/sever.js"
+  },
+  "author": "\"tuananh\"",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.10",
+    "mongoose": "^5.13.2",
+    "nodemon": "^2.0.9",
+    "save": "^2.4.0",
+    "validator": "^13.6.0"
+  }
+}
